@@ -1,0 +1,70 @@
+.lunch {
+    margin-top: 3em;
+    width: 300px;
+    height: 200px;
+    display: grid;
+    align-items: center;
+    border-radius: 400px;
+}
+
+.lunch .breakfast .dinner {
+    display: inline-flex;
+    margin-left: 50px;
+    border-radius: 400px;
+}
+
+.dinner {
+    margin-top: 3em;
+    width: 300px;
+    height: 200px;
+    display: grid;
+    align-items: center;
+    border-radius: 40px;
+    border-radius: 400px;
+}
+
+.breakfast {
+    margin-top: 3em;
+    width: 300px;
+    height: 200px;
+    display: grid;
+    align-items: center;
+    border-radius: 40px;
+    border-radius: 400px;
+}
+
+#time11 {
+    background-IMAGE: linear-gradient(to bottom, rgba(246, 187, 72, 1), rgba(253, 250, 250, 0) 90%);
+    color: rgb(90, 18, 18);
+    align-items: center;
+    font-size: 50px;
+    width: 200px;
+    height: 100px;
+    margin-left: 25px;
+    font-family: "French Script MT";
+    text-align: center;
+    text-shadow: 50px;
+}
+
+.menu {
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+#dinner {
+    margin-left: 10em;
+}
+
+#lunch {
+    margin-left: 10em;
+}
+
+#image {}
+
+#image img {
+    transition: all 1.5s ease;
+}
+
+#image:hover img {
+    transform: scale(1.2);
+}
